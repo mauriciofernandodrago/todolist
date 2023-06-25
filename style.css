@@ -29,7 +29,7 @@ body{
     display: flex;
     align-items: center;
     gap: 1rem;
-    flex-wrap: ;
+    flex-wrap: wrap;
 }
 #input-new-task,
 #btn-new-task{
@@ -68,4 +68,8 @@ body{
 }
 #to-do-list li{
     list-style-type: none;
+    font-size: 1.4em;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: space-between;
 }
